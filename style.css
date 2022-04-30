@@ -52,8 +52,9 @@ nav a {
 /* skills settings */
 .skills {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   align-items: center;
 }
@@ -75,7 +76,7 @@ nav a {
 .interests {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   align-items: center;
 
