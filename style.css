@@ -4,7 +4,11 @@
   font-family: "Oswald", sans-serif;
   color: darkslategrey;
   background-color: antiquewhite;
-  margin: 2% 1.5%;
+  margin: 1% 1%;
+}
+* main {
+  display: flex;
+  flex-wrap: wrap;
 }
 * a {
   text-decoration: none;
@@ -36,10 +40,59 @@ nav a {
 }
 /* header settings */
 /* img settings */
+.photo {
+  display: inline;
+  max-width: fit-content;
+  background-color: white;
+}
+.photo figcaption {
+  text-align: center;
+}
 /* img settings */
 /* skills settings */
+.skills {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+.skills h2 {
+  text-align: center;
+  width: 100%;
+}
+.skills p {
+  background-color: darkslategrey;
+  color: bisque;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+}
+
 /* skills settings */
 /* interests settings */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  padding-bottom: 0%;
+}
+.interests h2 {
+  text-align: center;
+  width: 100%;
+}
+.interests p {
+  background-color: darkslategrey;
+  color: bisque;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+}
 /* interests settings */
 /* contact settings */
 /* contact settings */
@@ -51,3 +104,9 @@ nav a {
 /* cv settings */
 /* footer settings */
 /* footer settings */
+.play {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
