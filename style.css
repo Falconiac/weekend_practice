@@ -49,6 +49,12 @@ nav a {
   text-align: center;
 }
 /* img settings */
+.play {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* skills settings */
 .skills {
   display: flex;
@@ -59,7 +65,7 @@ nav a {
   align-items: center;
 }
 .skills h2 {
-  text-align: center;
+  align-self: flex-start;
   width: 100%;
 }
 .skills p {
@@ -83,7 +89,7 @@ nav a {
   padding-bottom: 0%;
 }
 .interests h2 {
-  text-align: center;
+  align-self: flex-start;
   width: 100%;
 }
 .interests p {
@@ -96,18 +102,66 @@ nav a {
 }
 /* interests settings */
 /* contact settings */
-/* contact settings */
-/* social settings */
-/* social settings */
-/* about settings */
-/* about settings */
-/* cv settings */
-/* cv settings */
-/* footer settings */
-/* footer settings */
-.play {
+.contact {
+  width: 100%;
+  height: fit-content;
+  border: 2px solid darkslategrey;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
+#ytxt {
+  width: 95%;
+  height: 10em;
+}
+
+#ymail {
+  width: 95%;
+}
+
+#ytel {
+  width: 95%;
+}
+.contact h2 {
+  align-self: flex-start;
+}
+
+/* contact settings */
+/* social settings */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.social img {
+  width: 120px;
+  display: inline;
+}
+
+.social h2 {
+  align-self: flex-start;
+  width: 20%;
+}
+.socico {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60em;
+}
+
+@media (max-width: 500px) {
+  .socico {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* social settings */
+/* about settings */
+/* about settings */
+/* cv settings */
+/* cv settings */
+/* footer settings */
+/* footer settings */
