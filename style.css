@@ -1,3 +1,53 @@
+/* general settings */
 * {
+  box-sizing: border-box;
   font-family: "Oswald", sans-serif;
+  color: darkslategrey;
+  background-color: antiquewhite;
+  margin: 2% 1.5%;
 }
+* a {
+  text-decoration: none;
+  color: darkslategrey;
+}
+* h2 {
+  font-weight: 600;
+  text-decoration: underline;
+}
+/* general settings */
+
+/* header settings */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 {
+  display: inline;
+  width: 500px;
+}
+header nav {
+  display: inline;
+}
+nav a {
+  margin: 5px;
+}
+/* header settings */
+/* img settings */
+/* img settings */
+/* skills settings */
+/* skills settings */
+/* interests settings */
+/* interests settings */
+/* contact settings */
+/* contact settings */
+/* social settings */
+/* social settings */
+/* about settings */
+/* about settings */
+/* cv settings */
+/* cv settings */
+/* footer settings */
+/* footer settings */
